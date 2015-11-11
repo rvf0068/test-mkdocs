@@ -1,2 +1,8 @@
-site_name: Olimpiada Hidalguense de Matemáticas
-theme: readable
+site_name: Olimpiada
+theme: flatly
+
+extra_javascript: 
+    - http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
+markdown_extensions:
+    - mdx_math
